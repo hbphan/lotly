@@ -7,7 +7,7 @@ render() {
     return (
       <View style={styles.header}>
         <image
-            source={{ uri: 'https://www.google.com.vn/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiNtsXGz-7eAhVLT7wKHYHMDV0QjRx6BAgBEAU&url=https%3A%2F%2Ftutorialscapital.com%2Freact-native-custom-animated-sliding-drawer-android-ios-tutorial%2F&psig=AOvVaw3wM2GkFM33rCEr8VVNP8aI&ust=1543202041928432' }}
+            source={{ uri: 'https://github.com/hbphan/lotly/blob/master/assets/images/SettingLogo.png' }}
             style={styles.settingLogo}
         />
       </View>
