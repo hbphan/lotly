@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-// import { connect } from 'react-redux';
-// import * as actions from '../actions';
-import Header from '../components/Header';
+import { View } from 'react-native';
+import { connect } from 'react-redux';
+import * as actions from '../actions';
+import AppHeader from '../components/AppHeader';
 
-export default class LotteryHomeScreen extends Component {
+
+class LotteryHomeScreen extends Component {
 render() {
     return (
-      <View style={styles.container}>
-        <Header />
-        <Text>LotteryHomeScreen</Text>
-        
+      <View >
+        <AppHeader />
       </View>
     );
   }
 }
 
+/*
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -25,6 +25,6 @@ const styles = StyleSheet.create({
   },
   
 });
+*/
 
-
-// export default connect(null, actions)(LotteryHomeScreen);
+export default connect(null, actions)(LotteryHomeScreen);
